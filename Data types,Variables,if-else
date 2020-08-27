@@ -1,0 +1,27 @@
+using System;
+
+namespace ConsoleApp4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int a = 3, b = 4,i=0;
+            string house = "hhhh";
+            float c = 10.2F, d = 20.2F;
+            Boolean m = true, n = false;
+            if(a==3)
+            {
+                Console.WriteLine(++a);
+                
+            }
+            else
+            {
+                Console.WriteLine(a--);
+            }
+            
+           
+        }
+    }
+}
